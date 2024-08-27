@@ -32,6 +32,12 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 
+tasks.jar {
+    manifest {
+        attributes["Main-Class"] = "me.joao.dev_joao_digital_bank_2024.Application"
+    }
+}
+
 tasks.named('test') {
     useJUnitPlatform()
 }

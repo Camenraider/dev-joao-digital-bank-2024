@@ -1,0 +1,1 @@
+web: java -jar build/libs/dev-joao-digital-bank-2024-0.0.1-SNAPSHOT.jar
