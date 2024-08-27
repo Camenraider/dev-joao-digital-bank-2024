@@ -39,4 +39,9 @@ classDiagram
     User "1" *-- "N" Feature
     User "1" *-- "1" Card
     User "1" *-- "N" News 
-    ```
+```
+## Acessar banco de testes
+http://localhost:8080/h2-console
+
+## Acessar Swagger
+http://localhost:8080/swagger-ui/index.html
